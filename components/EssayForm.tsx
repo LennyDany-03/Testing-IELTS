@@ -13,7 +13,7 @@ export default function EssayForm() {
     setFeedback("")
 
     try {
-      const res = await fetch("http://localhost:8000/evaluate-essay", {
+      const res = await fetch("https://testing-fast-api.onrender.com/evaluate-essay", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
